@@ -1,0 +1,39 @@
+# Diretório de dependências do Go Modules
+/ vendor/
+
+# Binários gerados
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Diretório de build do Go
+/build/
+
+# Arquivos temporários de execução
+*.log
+*.tmp
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Teste de cobertura de código
+*.cover
+coverage.out
+
+# Diretório de cache do Go Modules
+/go/pkg/mod/
+
+# Diretório de cache de builds
+/go/build/
+
+# Execuções específicas do sistema
+.DS_Store
+Thumbs.db
+
+# Binários
+/conversor
